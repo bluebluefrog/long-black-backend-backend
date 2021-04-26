@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="314598a2-6761-4772-a9e6-b475ed212712" name="Default Changelist" comment="新增用户登录功能" />
+    <list default="true" id="314598a2-6761-4772-a9e6-b475ed212712" name="Default Changelist" comment="新增用户登录功能">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +23,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -202,7 +210,7 @@
       <updated>1618721284696</updated>
       <workItem from="1618721285968" duration="35000" />
       <workItem from="1619415677562" duration="7803000" />
-      <workItem from="1619424379266" duration="2460000" />
+      <workItem from="1619424379266" duration="2930000" />
     </task>
     <task id="LOCAL-00001" summary="新增用户登录功能">
       <created>1619425246627</created>
@@ -239,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619426661722</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="新增用户登录功能">
+      <created>1619426849856</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619426849856</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,10 +285,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="812" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619419408557" />
-    <state x="248" y="84" key="DiffContextDialog" timestamp="1619426579490">
+    <state x="248" y="84" key="DiffContextDialog" timestamp="1619426962831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="248" y="84" key="DiffContextDialog/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619426579490" />
+    <state x="248" y="84" key="DiffContextDialog/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619426962831" />
     <state x="856" y="300" key="FileChooserDialogImpl" timestamp="1619426201329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -318,22 +333,22 @@
     </state>
     <state width="1459" height="260" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619425830738" />
     <state width="1260" height="275" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-931.1440.2520@1920.-931.1440.2520" timestamp="1619423003652" />
-    <state x="557" y="221" key="SettingsEditor" timestamp="1619426183223">
+    <state x="557" y="221" key="SettingsEditor" timestamp="1619427310686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="557" y="221" key="SettingsEditor/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619426183223" />
+    <state x="557" y="221" key="SettingsEditor/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619427310686" />
     <state x="854" y="387" key="VCS.EditChangelistDialog" timestamp="1619425021580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="854" y="387" key="VCS.EditChangelistDialog/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619425021580" />
-    <state x="616" y="251" key="Vcs.Push.Dialog.v2" timestamp="1619426715363">
+    <state x="616" y="251" key="Vcs.Push.Dialog.v2" timestamp="1619427269732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619426715363" />
-    <state x="828" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619426834690">
+    <state x="616" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619427269732" />
+    <state x="828" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619426981550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="828" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619426834690" />
+    <state x="828" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619426981550" />
     <state x="811" y="284" key="refactoring.ChangeSignatureDialog" timestamp="1619418800953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
