@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.knowonespace.longblack.model.dao.AdminMapper">
+  <resultMap id="BaseResultMap" type="com.knowonespace.longblack.model.pojo.Admin">
+    <id column="admin_id" jdbcType="BIGINT" property="adminId" />
+    <result column="admin_name" jdbcType="VARCHAR" property="adminName" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    admin_id, admin_name, `password`
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from admin
+    where admin_id = #{adminId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from admin
+    where admin_id = #{adminId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.knowonespace.longblack.model.pojo.Admin">
+    insert into admin (admin_id, admin_name, `password`
+      )
+    values (#{adminId,jdbcType=BIGINT}, #{adminName,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.knowonespace.longblack.model.pojo.Admin">
+    insert into admin
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="adminId != null">
+        admin_id,
+      </if>
+      <if test="adminName != null">
+        admin_name,
+      </if>
+      <if test="password != null">
+        `password`,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="adminId != null">
+        #{adminId,jdbcType=BIGINT},
+      </if>
+      <if test="adminName != null">
+        #{adminName,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.knowonespace.longblack.model.pojo.Admin">
+    update admin
+    <set>
+      <if test="adminName != null">
+        admin_name = #{adminName,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        `password` = #{password,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where admin_id = #{adminId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.knowonespace.longblack.model.pojo.Admin">
+    update admin
+    set admin_name = #{adminName,jdbcType=VARCHAR},
+      `password` = #{password,jdbcType=VARCHAR}
+    where admin_id = #{adminId,jdbcType=BIGINT}
+  </update>
+  <select id="selectByAdminName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List"/>
+    from admin
+    where admin_name = #{adminName,jdbcType=VARCHAR}
+  </select>
+</mapper>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="314598a2-6761-4772-a9e6-b475ed212712" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\JetBrains\IntelliJ IDEA 2020.1.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1rKOOnvyMHW29sGcdbp0692J3p7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.knowonespace.longblack.utils" />
+      <recent name="com.knowonespace.longblack.exception" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.knowonespace.longblack" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.knowonespace.longblack.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\long-black-backend-master\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LongBlackApplication">
+    <configuration name="MD5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knowonespace.longblack.utils.MD5Utils" />
+      <module name="long-black" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knowonespace.longblack.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminServiceTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="long-black" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knowonespace.longblack.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.knowonespace.longblack.service" />
+      <option name="MAIN_CLASS_NAME" value="com.knowonespace.longblack.service.AdminServiceTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testMapper.deleteByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="long-black" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knowonespace.longblack.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.knowonespace.longblack.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.knowonespace.longblack.mapper.testMapper" />
+      <option name="METHOD_NAME" value="deleteByPrimaryKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testMapper.insertSelective" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="long-black" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knowonespace.longblack.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.knowonespace.longblack.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.knowonespace.longblack.mapper.testMapper" />
+      <option name="METHOD_NAME" value="insertSelective" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testMapper.selectByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="long-black" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knowonespace.longblack.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.knowonespace.longblack.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.knowonespace.longblack.mapper.testMapper" />
+      <option name="METHOD_NAME" value="selectByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongBlackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="long-black" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.knowonespace.longblack.LongBlackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AdminServiceTest.testLogin" />
+        <item itemvalue="JUnit.testMapper.selectByName" />
+        <item itemvalue="Application.MD5Utils" />
+        <item itemvalue="JUnit.testMapper.insertSelective" />
+        <item itemvalue="JUnit.testMapper.deleteByPrimaryKey" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="314598a2-6761-4772-a9e6-b475ed212712" name="Default Changelist" comment="" />
+      <created>1618721284696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618721284696</updated>
+      <workItem from="1618721285968" duration="35000" />
+      <workItem from="1619415677562" duration="7803000" />
+      <workItem from="1619424379266" duration="615000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="743" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1619420773436">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619420773436" />
+    <state x="445" y="425" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1619420561978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="445" y="425" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619420561978" />
+    <state x="717" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1619420559362">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="717" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619420559362" />
+    <state x="812" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619419408557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="812" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619419408557" />
+    <state x="856" y="300" key="FileChooserDialogImpl" timestamp="1619418373350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="856" y="300" key="FileChooserDialogImpl/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619418373350" />
+    <state width="1260" height="260" key="GridCell.Tab.0.bottom" timestamp="1619424890178">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1260" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619424890178" />
+    <state width="1260" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-931.1440.2520@1920.-931.1440.2520" timestamp="1619423003652" />
+    <state width="1260" height="260" key="GridCell.Tab.0.center" timestamp="1619424890178">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1260" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619424890178" />
+    <state width="1260" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-931.1440.2520@1920.-931.1440.2520" timestamp="1619423003652" />
+    <state width="1260" height="260" key="GridCell.Tab.0.left" timestamp="1619424890178">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1260" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619424890178" />
+    <state width="1260" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-931.1440.2520@1920.-931.1440.2520" timestamp="1619423003652" />
+    <state width="1260" height="260" key="GridCell.Tab.0.right" timestamp="1619424890178">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1260" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619424890178" />
+    <state width="1260" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-931.1440.2520@1920.-931.1440.2520" timestamp="1619423003652" />
+    <state width="1260" height="260" key="GridCell.Tab.1.bottom" timestamp="1619424890179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1260" height="260" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619424890179" />
+    <state width="1260" height="275" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-931.1440.2520@1920.-931.1440.2520" timestamp="1619423003652" />
+    <state width="1260" height="260" key="GridCell.Tab.1.center" timestamp="1619424890179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1260" height="260" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619424890179" />
+    <state width="1260" height="275" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-931.1440.2520@1920.-931.1440.2520" timestamp="1619423003652" />
+    <state width="1260" height="260" key="GridCell.Tab.1.left" timestamp="1619424890179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1260" height="260" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619424890179" />
+    <state width="1260" height="275" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-931.1440.2520@1920.-931.1440.2520" timestamp="1619423003652" />
+    <state width="1260" height="260" key="GridCell.Tab.1.right" timestamp="1619424890179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1260" height="260" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619424890179" />
+    <state width="1260" height="275" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-931.1440.2520@1920.-931.1440.2520" timestamp="1619423003652" />
+    <state x="854" y="387" key="VCS.EditChangelistDialog" timestamp="1619425021580">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="854" y="387" key="VCS.EditChangelistDialog/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619425021580" />
+    <state x="811" y="284" key="refactoring.ChangeSignatureDialog" timestamp="1619418800953">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="811" y="284" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.-931.1440.2520@0.0.1920.1040" timestamp="1619418800953" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/knowonespace/longblack/mapper/testMapper.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
