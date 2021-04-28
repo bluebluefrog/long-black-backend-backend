@@ -1,7 +1,9 @@
 package com.knowonespace.longblack.model.dao;
 
 import com.knowonespace.longblack.model.pojo.Member;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface MemberMapper {
     int deleteByPrimaryKey(Long memberId);
 
@@ -14,4 +16,6 @@ public interface MemberMapper {
     int updateByPrimaryKeySelective(Member record);
 
     int updateByPrimaryKey(Member record);
+
+    Member selectByName(String username);
 }

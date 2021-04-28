@@ -9,6 +9,7 @@ import com.mysql.cj.util.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;
@@ -37,6 +38,17 @@ public class AdminController {
         Admin admin = null;
         admin = adminService.adminLogin(adminName, password);
 
+        admin.setPassword(null);
+
+        session.setAttribute("cur_admin", admin);
+
         return ApiRestResponse.success(admin);
+    }
+
+    @PostMapping("/logout")
+    public ApiRestResponse adminLogout(HttpSession session){
+        session.removeAttribute("cur_admin");
+
+        return ApiRestResponse.success();
     }
 }

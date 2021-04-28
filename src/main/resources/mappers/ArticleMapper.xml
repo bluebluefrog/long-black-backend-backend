@@ -29,7 +29,7 @@
     from article
     where article_id = #{articleId,jdbcType=BIGINT}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
     delete from article
     where article_id = #{articleId,jdbcType=BIGINT}
   </delete>
@@ -157,4 +157,19 @@
       evaluation_quantity = #{evaluationQuantity,jdbcType=INTEGER}
     where article_id = #{articleId,jdbcType=BIGINT}
   </update>
+
+  <select id="selectList" parameterType="com.knowonespace.longblack.model.req.ArticleReq" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List"></include>
+    from article
+    <where>
+      <if test="articleReq.articleKeyWord!= null">
+        and article_name like #{articleReq.articleKeyWord}
+      </if>
+      <if test="articleReq.categoryId!= null">
+        and category_id = #{articleReq.categoryId}
+      </if>
+    </where>
+    order by evaluation_quantity desc
+  </select>
 </mapper>

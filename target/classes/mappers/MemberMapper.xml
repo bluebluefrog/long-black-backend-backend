@@ -103,4 +103,11 @@
       signature = #{signature,jdbcType=VARCHAR}
     where member_id = #{memberId,jdbcType=BIGINT}
   </update>
+
+  <select id="selectByName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List"/>
+    from member
+    where username=#{username}
+  </select>
 </mapper>
