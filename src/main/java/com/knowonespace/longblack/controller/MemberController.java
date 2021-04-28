@@ -1,15 +1,13 @@
 package com.knowonespace.longblack.controller;
 
-import com.knowonespace.longblack.Common.ApiRestResponse;
+import com.knowonespace.longblack.common.ApiRestResponse;
 import com.knowonespace.longblack.exception.LongBlackExceptionEnum;
 import com.knowonespace.longblack.model.pojo.Member;
+import com.knowonespace.longblack.service.EvaluationService;
 import com.knowonespace.longblack.service.MemberService;
 import com.mysql.cj.util.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
 
@@ -19,6 +17,9 @@ public class MemberController {
 
     @Autowired
     private MemberService memberService;
+
+    @Autowired
+    private EvaluationService evaluationService;
 
     @PostMapping("/register")
     public ApiRestResponse register(@RequestParam("userName") String userName, @RequestParam("password") String password) {
@@ -63,6 +64,12 @@ public class MemberController {
     public ApiRestResponse logout(HttpSession session) {
         session.removeAttribute("cur_member");
 
+        return ApiRestResponse.success();
+    }
+
+    @PostMapping("/evaluate")
+    public ApiRestResponse evaluate(Long memberId, Long articleId, Integer score, String content) {
+        evaluationService.evaluate(memberId, articleId, score, content);
         return ApiRestResponse.success();
     }
 }

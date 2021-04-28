@@ -1,7 +1,9 @@
 package com.knowonespace.longblack.model.dao;
 
 import com.knowonespace.longblack.model.pojo.MemberReadState;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface MemberReadStateMapper {
     int deleteByPrimaryKey(Long rsId);
 

@@ -1,19 +1,16 @@
 package com.knowonespace.longblack.controller.admin;
 
-import com.knowonespace.longblack.Common.ApiRestResponse;
+import com.knowonespace.longblack.common.ApiRestResponse;
 import com.knowonespace.longblack.exception.LongBlackExceptionEnum;
-import com.knowonespace.longblack.exception.LongblackException;
 import com.knowonespace.longblack.model.pojo.Admin;
 import com.knowonespace.longblack.service.AdminService;
 import com.mysql.cj.util.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;
-import java.security.NoSuchAlgorithmException;
 
 @RestController
 @RequestMapping("/admin")

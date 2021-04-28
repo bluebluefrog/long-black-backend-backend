@@ -1,4 +1,4 @@
-package com.knowonespace.longblack.Common;
+package com.knowonespace.longblack.common;
 
 import com.knowonespace.longblack.exception.LongBlackExceptionEnum;
 

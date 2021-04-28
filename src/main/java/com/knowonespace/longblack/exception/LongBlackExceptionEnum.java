@@ -21,6 +21,7 @@ public enum LongBlackExceptionEnum {
     NO_ENUM(10018, "枚举异常"),
     NOT_YOUR_ARTICLE(10019, "文章无操纵权限"),
     USER_NOT_EXISTED(10020,"用户不存在"),
+    EVALUATE_FAIL(10021,"评论失败"),
     SYSTEM_ERROR(20000, "系统异常");
 
     Integer code;

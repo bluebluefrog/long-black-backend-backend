@@ -1,6 +1,6 @@
 package com.knowonespace.longblack.utils;
 
-import com.knowonespace.longblack.Common.Constant;
+import com.knowonespace.longblack.common.Constant;
 import org.apache.tomcat.util.codec.binary.Base64;
 
 import java.security.MessageDigest;

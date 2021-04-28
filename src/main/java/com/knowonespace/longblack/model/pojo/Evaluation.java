@@ -23,6 +23,8 @@ public class Evaluation {
 
     private Date disableTime;
 
+    private Member member;
+
     public Long getEvaluationId() {
         return evaluationId;
     }
@@ -101,5 +103,13 @@ public class Evaluation {
 
     public void setDisableTime(Date disableTime) {
         this.disableTime = disableTime;
+    }
+
+    public Member getMember() {
+        return member;
+    }
+
+    public void setMember(Member member) {
+        this.member = member;
     }
 }
